@@ -1,0 +1,33 @@
+# Temporary files
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Log files
+*.log
+
+# .terraform directory
+.terraform/
+
+# Generated files
+*.tfstate
+*.tfplan
+
+# Sensitive files and credentials
+*.pem
+*.key
+*.cert
+*.pkcs12
+*.jks
+*.ovpn
+*.aws/*
+
+# Backup and temporary files from editors
+*~
+*.swp
+*.bak
+*.tmp
+*.sublime-*
+*.iml
+.idea/
+*.vscode/
+.DS_Store
